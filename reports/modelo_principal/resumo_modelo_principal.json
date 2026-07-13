@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-04-27T00:00:00-03:00",
+  "package_dir": "reports/modelo_principal",
+  "organization_role": "principal_sem_temporais",
+  "selected_candidate_name": "univariate_top_11__logreg_l2_c0.3_cwnone",
+  "selected_model_family": "logreg_l2",
+  "selected_feature_set_name": "univariate_top_11",
+  "selected_feature_count": 11,
+  "selected_holdout_roc_auc": 0.6828385899814471,
+  "selected_holdout_accuracy": 0.6292517006802721,
+  "selection_rule": "best_logistic_by_holdout_roc_auc_then_log_loss_then_brier_then_accuracy",
+  "best_overall_candidate_name": "univariate_top_11__svm_linear_c0.1_cwnone",
+  "best_overall_model_family": "svm_linear",
+  "best_overall_holdout_roc_auc": 0.6828385899814471,
+  "selected_matches_best_overall": false,
+  "official_config_path": "reports/modelo_principal/config_modelo_principal.json",
+  "analysis_dir": "reports/modelo_principal/analises",
+  "model_params": {
+    "C": 0.3,
+    "class_weight": null
+  },
+  "recommended_threshold_accuracy": 0.49,
+  "repeated_cv_accuracy_accuracy": 0.608012568735271,
+  "recommended_threshold_f1": 0.305,
+  "repeated_cv_f1_f1": 0.6619959965684873,
+  "recommended_threshold_primary_objective": "accuracy",
+  "recommended_threshold_primary_value": 0.49
+}

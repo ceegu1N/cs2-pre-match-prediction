@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Se este projeto for útil ao seu trabalho, cite-o desta forma."
+title: "Predição pré-jogo de partidas profissionais de Counter-Strike 2 com aprendizado de máquina"
+type: software
+authors:
+  - family-names: "Rocha"
+    given-names: "Gabriel Herdy"
+repository-code: "https://github.com/ceegu1N/cs2-pre-match-prediction"
+version: "1.0.0"
+date-released: "2026-07-13"

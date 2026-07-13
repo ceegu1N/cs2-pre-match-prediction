@@ -1,0 +1,194 @@
+{
+  "created_at": "2026-05-27",
+  "holdout_source": "data/processed/match_feature_differences.csv, season_label=2026_s1",
+  "prospectiva_sources": [
+    "reports\\prospectiva\\prospectiva_pgl_astana_master.csv",
+    "reports\\prospectiva\\prospectiva_iem_atlanta_master.csv",
+    "reports\\prospectiva\\cac_2026_acompanhamento_atualizado_20260522.csv",
+    "reports\\prospectiva\\previsoes_cac_final_20260524.csv"
+  ],
+  "prospectiva_snapshot": "data/processed/team_snapshot_prospect_12m_20260502.csv",
+  "summary": [
+    {
+      "grupo": "holdout_2026_s1",
+      "n": 294,
+      "mean": 104.96287755102041,
+      "median": 78.203,
+      "std": 85.44311607975449,
+      "min": 0.08,
+      "p25": 39.868249999999996,
+      "p75": 150.0005,
+      "p90": 224.15009999999998,
+      "max": 525.726,
+      "share_ge_50": 0.7006802721088435,
+      "share_ge_100": 0.4217687074829932,
+      "share_ge_150": 0.25170068027210885,
+      "share_ge_200": 0.14625850340136054,
+      "share_ge_250": 0.07142857142857142,
+      "share_ge_300": 0.034013605442176874
+    },
+    {
+      "grupo": "prospectiva_total_12m",
+      "n": 101,
+      "mean": 153.0679207920792,
+      "median": 141.55700000000002,
+      "std": 130.308806541437,
+      "min": 0.9880000000000564,
+      "p25": 49.65599999999995,
+      "p75": 211.9949999999999,
+      "p90": 347.77700000000004,
+      "max": 649.9269999999999,
+      "share_ge_50": 0.7425742574257426,
+      "share_ge_100": 0.5643564356435643,
+      "share_ge_150": 0.48514851485148514,
+      "share_ge_200": 0.3069306930693069,
+      "share_ge_250": 0.13861386138613863,
+      "share_ge_300": 0.1188118811881188
+    },
+    {
+      "grupo": "prospectiva_CS Asia Championships 2026",
+      "n": 30,
+      "mean": 136.84976666666662,
+      "median": 165.07399999999996,
+      "std": 108.17531298351584,
+      "min": 0.9880000000000564,
+      "p25": 33.269749999999874,
+      "p75": 217.38374999999985,
+      "p90": 223.24190000000002,
+      "max": 466.22,
+      "share_ge_50": 0.7,
+      "share_ge_100": 0.6,
+      "share_ge_150": 0.5333333333333333,
+      "share_ge_200": 0.36666666666666664,
+      "share_ge_250": 0.03333333333333333,
+      "share_ge_300": 0.03333333333333333
+    },
+    {
+      "grupo": "prospectiva_IEM Atlanta 2026",
+      "n": 30,
+      "mean": 150.34406666666663,
+      "median": 98.32450000000006,
+      "std": 147.83538441372554,
+      "min": 5.746000000000095,
+      "p25": 56.903250000000014,
+      "p75": 172.22225000000003,
+      "p90": 359.19109999999984,
+      "max": 649.9269999999999,
+      "share_ge_50": 0.7666666666666667,
+      "share_ge_100": 0.4666666666666667,
+      "share_ge_150": 0.4,
+      "share_ge_200": 0.23333333333333334,
+      "share_ge_250": 0.16666666666666666,
+      "share_ge_300": 0.13333333333333333
+    },
+    {
+      "grupo": "prospectiva_PGL Astana 2026",
+      "n": 41,
+      "mean": 166.92792682926833,
+      "median": 161.76099999999997,
+      "std": 133.1249602006307,
+      "min": 4.269999999999982,
+      "p25": 55.96100000000001,
+      "p75": 212.92700000000013,
+      "p90": 386.05200000000013,
+      "max": 531.23,
+      "share_ge_50": 0.7560975609756098,
+      "share_ge_100": 0.6097560975609756,
+      "share_ge_150": 0.5121951219512195,
+      "share_ge_200": 0.3170731707317073,
+      "share_ge_250": 0.1951219512195122,
+      "share_ge_300": 0.17073170731707318
+    }
+  ],
+  "bins": [
+    {
+      "grupo": "holdout_2026_s1",
+      "faixa_abs_elo": "0-50",
+      "n": 88,
+      "pct": 0.29931972789115646
+    },
+    {
+      "grupo": "holdout_2026_s1",
+      "faixa_abs_elo": "50-100",
+      "n": 82,
+      "pct": 0.2789115646258503
+    },
+    {
+      "grupo": "holdout_2026_s1",
+      "faixa_abs_elo": "100-150",
+      "n": 50,
+      "pct": 0.17006802721088435
+    },
+    {
+      "grupo": "holdout_2026_s1",
+      "faixa_abs_elo": "150-200",
+      "n": 31,
+      "pct": 0.1054421768707483
+    },
+    {
+      "grupo": "holdout_2026_s1",
+      "faixa_abs_elo": "200-300",
+      "n": 33,
+      "pct": 0.11224489795918367
+    },
+    {
+      "grupo": "holdout_2026_s1",
+      "faixa_abs_elo": "300+",
+      "n": 10,
+      "pct": 0.034013605442176874
+    },
+    {
+      "grupo": "prospectiva_total_12m",
+      "faixa_abs_elo": "0-50",
+      "n": 26,
+      "pct": 0.25742574257425743
+    },
+    {
+      "grupo": "prospectiva_total_12m",
+      "faixa_abs_elo": "50-100",
+      "n": 18,
+      "pct": 0.1782178217821782
+    },
+    {
+      "grupo": "prospectiva_total_12m",
+      "faixa_abs_elo": "100-150",
+      "n": 8,
+      "pct": 0.07920792079207921
+    },
+    {
+      "grupo": "prospectiva_total_12m",
+      "faixa_abs_elo": "150-200",
+      "n": 18,
+      "pct": 0.1782178217821782
+    },
+    {
+      "grupo": "prospectiva_total_12m",
+      "faixa_abs_elo": "200-300",
+      "n": 19,
+      "pct": 0.18811881188118812
+    },
+    {
+      "grupo": "prospectiva_total_12m",
+      "faixa_abs_elo": "300+",
+      "n": 12,
+      "pct": 0.1188118811881188
+    }
+  ],
+  "bootstrap": {
+    "mean_diff_prospectiva_minus_holdout": 48.105043241058794,
+    "mean_diff_ci95": [
+      21.69283045564756,
+      75.5407025577558
+    ],
+    "median_diff_prospectiva_minus_holdout": 63.35400000000001,
+    "median_diff_ci95": [
+      7.5082624999999314,
+      93.07600000000008
+    ]
+  },
+  "notes": [
+    "Holdout usa diff_elo_pre_match dinamico por partida.",
+    "Prospectiva usa elo_rating congelado no snapshot operacional de 12 meses em 02/05/2026.",
+    "Comparacao e diagnostica: as escalas sao comparaveis, mas nao identicas em construcao operacional."
+  ]
+}

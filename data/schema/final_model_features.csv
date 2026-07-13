@@ -1,0 +1,12 @@
+feature,grupo,descricao
+diff_elo_pre_match,Forca historica,Diferenca entre o ELO pre-jogo da equipe analisada e o do adversario
+diff_time_alive_per_round_mean_5,Desempenho dos jogadores,Diferenca entre as medias de tempo vivo por round dos cinco jogadores
+diff_recent_win_rate,Forma recente,Diferenca entre as taxas recentes de vitoria das equipes
+diff_rating_mean_5,Desempenho dos jogadores,Diferenca entre os ratings medios dos cinco jogadores
+diff_deaths_per_round_mean_5,Desempenho dos jogadores,Diferenca entre as medias de mortes por round dos cinco jogadores
+diff_kd_mean_5,Desempenho dos jogadores,Diferenca entre as razoes medias de abates e mortes dos cinco jogadores
+diff_last_alive_pct_mean_5,Desempenho dos jogadores,Diferenca entre os percentuais medios de ultimo jogador vivo
+diff_opening_kills_per_round_mean_5,Desempenho dos jogadores,Diferenca entre as medias de abates de abertura por round
+diff_kast_mean_5,Desempenho dos jogadores,Diferenca entre os valores medios de KAST dos cinco jogadores
+diff_impact_mean_5,Desempenho dos jogadores,Diferenca entre os valores medios de impact dos cinco jogadores
+diff_opening_success_mean_5,Desempenho dos jogadores,Diferenca entre as taxas medias de sucesso em duelos de abertura

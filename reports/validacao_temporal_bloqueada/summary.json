@@ -1,0 +1,142 @@
+{
+  "status": "completed",
+  "generated_from": "data\\processed\\match_feature_differences.csv",
+  "config_path": "reports\\modelo_principal\\config_modelo_principal.json",
+  "interpretation": "Validacao temporal bloqueada retrospectiva do modelo congelado; nao e avaliacao prospectiva e nao altera o modelo final.",
+  "model_configuration": {
+    "candidate_name": "univariate_top_11__logreg_l2_c0.3_cwnone",
+    "feature_set_name": "univariate_top_11",
+    "model_name": "logreg_l2_c0.3_cwnone",
+    "penalty": "l2",
+    "C": 0.3,
+    "class_weight": null,
+    "solver": "lbfgs",
+    "features": [
+      "diff_elo_pre_match",
+      "diff_time_alive_per_round_mean_5",
+      "diff_recent_win_rate",
+      "diff_rating_mean_5",
+      "diff_deaths_per_round_mean_5",
+      "diff_kd_mean_5",
+      "diff_last_alive_pct_mean_5",
+      "diff_opening_kills_per_round_mean_5",
+      "diff_kast_mean_5",
+      "diff_impact_mean_5",
+      "diff_opening_success_mean_5"
+    ]
+  },
+  "windows": [
+    {
+      "window_id": "2024_s1_to_2024_s2",
+      "train_seasons": "2024_s1",
+      "test_season": "2024_s2",
+      "n_train": 574,
+      "n_test": 670,
+      "test_negatives": 367,
+      "test_positives": 303,
+      "baseline_majority_accuracy": 0.5477611940298508,
+      "roc_auc": 0.6455787268100108,
+      "accuracy": 0.6014925373134329,
+      "precision": 0.5559006211180124,
+      "recall": 0.5907590759075908,
+      "f1": 0.5728,
+      "log_loss": 0.6592552001302768,
+      "brier": 0.2335959190688695
+    },
+    {
+      "window_id": "2024_s1_s2_to_2025_s1",
+      "train_seasons": "2024_s1+2024_s2",
+      "test_season": "2025_s1",
+      "n_train": 1244,
+      "n_test": 688,
+      "test_negatives": 344,
+      "test_positives": 344,
+      "baseline_majority_accuracy": 0.5,
+      "roc_auc": 0.6475628718226069,
+      "accuracy": 0.6002906976744186,
+      "precision": 0.6074766355140186,
+      "recall": 0.5668604651162791,
+      "f1": 0.5864661654135338,
+      "log_loss": 0.6545649476959536,
+      "brier": 0.23195301603044005
+    },
+    {
+      "window_id": "through_2025_s1_to_2025_s2",
+      "train_seasons": "2024_s1+2024_s2+2025_s1",
+      "test_season": "2025_s2",
+      "n_train": 1932,
+      "n_test": 614,
+      "test_negatives": 321,
+      "test_positives": 293,
+      "baseline_majority_accuracy": 0.5228013029315961,
+      "roc_auc": 0.6695054915845322,
+      "accuracy": 0.6026058631921825,
+      "precision": 0.5853658536585366,
+      "recall": 0.5733788395904437,
+      "f1": 0.5793103448275863,
+      "log_loss": 0.641834545276125,
+      "brier": 0.22602036974804895
+    },
+    {
+      "window_id": "through_2025_s2_to_2026_s1",
+      "train_seasons": "2024_s1+2024_s2+2025_s1+2025_s2",
+      "test_season": "2026_s1",
+      "n_train": 2546,
+      "n_test": 294,
+      "test_negatives": 154,
+      "test_positives": 140,
+      "baseline_majority_accuracy": 0.5238095238095238,
+      "roc_auc": 0.6828385899814471,
+      "accuracy": 0.6292517006802721,
+      "precision": 0.6165413533834586,
+      "recall": 0.5857142857142857,
+      "f1": 0.6007326007326007,
+      "log_loss": 0.6387933840597698,
+      "brier": 0.22430145922903105
+    }
+  ],
+  "confusion_matrices": [
+    {
+      "window_id": "2024_s1_to_2024_s2",
+      "test_season": "2024_s2",
+      "tn": 224,
+      "fp": 143,
+      "fn": 124,
+      "tp": 179
+    },
+    {
+      "window_id": "2024_s1_s2_to_2025_s1",
+      "test_season": "2025_s1",
+      "tn": 218,
+      "fp": 126,
+      "fn": 149,
+      "tp": 195
+    },
+    {
+      "window_id": "through_2025_s1_to_2025_s2",
+      "test_season": "2025_s2",
+      "tn": 202,
+      "fp": 119,
+      "fn": 125,
+      "tp": 168
+    },
+    {
+      "window_id": "through_2025_s2_to_2026_s1",
+      "test_season": "2026_s1",
+      "tn": 103,
+      "fp": 51,
+      "fn": 58,
+      "tp": 82
+    }
+  ],
+  "aggregate": {
+    "mean_roc_auc": 0.6613714200496492,
+    "std_roc_auc": 0.017954457835638434,
+    "mean_accuracy": 0.6084101997150765,
+    "std_accuracy": 0.013926459845017024,
+    "min_roc_auc": 0.6455787268100108,
+    "max_roc_auc": 0.6828385899814471,
+    "min_accuracy": 0.6002906976744186,
+    "max_accuracy": 0.6292517006802721
+  }
+}

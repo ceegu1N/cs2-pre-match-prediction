@@ -1,0 +1,3 @@
+team_key,team_slug,team_display_name,elo_rating,recent_win_rate,time_alive_per_round_mean_5,rating_mean_5,deaths_per_round_mean_5,kd_mean_5,last_alive_pct_mean_5,opening_kills_per_round_mean_5,kast_mean_5,impact_mean_5,opening_success_mean_5
+equipe-aurora,equipe-aurora,Equipe Aurora,1660.0,0.67,72.0,1.10,0.61,1.15,11.2,0.13,73.5,1.12,54.0
+equipe-horizonte,equipe-horizonte,Equipe Horizonte,1490.0,0.47,66.0,0.98,0.69,0.94,9.8,0.09,69.8,0.99,47.0

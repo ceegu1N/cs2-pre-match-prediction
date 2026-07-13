@@ -1,0 +1,15 @@
+coluna,tipo,obrigatoria,descricao
+team_key,texto,sim,Identificador estavel da equipe
+team_slug,texto,sim,Identificador normalizado usado pelo codigo
+team_display_name,texto,sim,Nome exibido da equipe
+elo_rating,decimal,sim,Pontuacao ELO disponivel antes do confronto
+recent_win_rate,decimal,sim,Taxa de vitorias recentes da equipe
+time_alive_per_round_mean_5,decimal,sim,Media do tempo vivo por round entre cinco jogadores
+rating_mean_5,decimal,sim,Media de rating entre cinco jogadores
+deaths_per_round_mean_5,decimal,sim,Media de mortes por round entre cinco jogadores
+kd_mean_5,decimal,sim,Media da razao entre abates e mortes entre cinco jogadores
+last_alive_pct_mean_5,decimal,sim,Media do percentual de ultimo jogador vivo
+opening_kills_per_round_mean_5,decimal,sim,Media de abates de abertura por round
+kast_mean_5,decimal,sim,Media de KAST entre cinco jogadores
+impact_mean_5,decimal,sim,Media de impact entre cinco jogadores
+opening_success_mean_5,decimal,sim,Media da taxa de sucesso em duelos de abertura

@@ -1,0 +1,12 @@
+feature,coefficient
+diff_elo_pre_match,0.7191328929264559
+diff_rating_mean_5,0.2526477936023573
+diff_time_alive_per_round_mean_5,0.1763623375187986
+diff_deaths_per_round_mean_5,0.05932397600834255
+diff_opening_kills_per_round_mean_5,0.040089534281643156
+diff_last_alive_pct_mean_5,-0.0030011654593206957
+diff_impact_mean_5,-0.0057903143756395
+diff_opening_success_mean_5,-0.010560895151467945
+diff_kd_mean_5,-0.07691951992689289
+diff_kast_mean_5,-0.09755922664409138
+diff_recent_win_rate,-0.27543387615936155

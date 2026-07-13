@@ -1,0 +1,13 @@
+[
+  "diff_elo_pre_match",
+  "diff_time_alive_per_round_mean_5",
+  "diff_recent_win_rate",
+  "diff_rating_mean_5",
+  "diff_deaths_per_round_mean_5",
+  "diff_kd_mean_5",
+  "diff_last_alive_pct_mean_5",
+  "diff_opening_kills_per_round_mean_5",
+  "diff_kast_mean_5",
+  "diff_impact_mean_5",
+  "diff_opening_success_mean_5"
+]
