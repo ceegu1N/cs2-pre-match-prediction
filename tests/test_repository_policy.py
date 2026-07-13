@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 from pathlib import Path
 
 import joblib
@@ -55,8 +56,15 @@ def test_no_personal_local_paths_in_text_files() -> None:
         "c:" + "\\tccteste0",
         "c:" + "\\eutccfim",
     )
-    for path in ROOT.rglob("*"):
-        if path.is_file() and path.suffix.lower() in suffixes:
+    tracked = subprocess.run(
+        ["git", "ls-files", "-z"],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+    ).stdout.decode("utf-8").split("\0")
+    for relative_path in tracked:
+        path = ROOT / relative_path
+        if relative_path and path.suffix.lower() in suffixes:
             content = path.read_text(encoding="utf-8", errors="ignore").lower()
             assert not any(value in content for value in forbidden), path
 
